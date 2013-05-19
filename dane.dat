@@ -1,0 +1,45 @@
+# Plik danych
+# Definicje zbiory indeksowanych
+set TOWARY:= A B C D E;
+set MASZYNY:= M1 M2 M3;
+
+
+# Dane
+# Czas pracy maszyn [min]
+param czas:
+	A   B    C    D   E:=
+	70  40   150  30  100
+	80  100  90   40  70
+	140 50   40   90  100;
+
+
+# Koszty wykorzystania maszyn [zl]
+param koszt: 
+	M1 M2 M3:=
+	20 25 30
+	40 30 45
+	35 20 40
+	45 50 25;
+
+# Zmienne losowe kosztu 1 godziny pracy maszyn
+param prawd:=
+	0.3
+	0.2
+	0.2
+	0.3;
+
+# Wielkosc produkcji [szt.]
+# A+B+C >= 60
+# D+E >= 120
+param produkcja:=
+	60
+	120;
+
+# Maksymalny czas dzierżawy [godz]
+param max_czas:=180;
+
+# Czas dodatkowej dzierzawy [godz]
+param czas_dod:=50;
+
+# Koszt dodatkowej dzierzawy [zl/godz]
+param koszt_dod:=10;
