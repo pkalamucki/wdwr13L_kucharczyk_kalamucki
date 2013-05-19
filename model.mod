@@ -41,12 +41,12 @@ var ryzyko;
 var koszt_sredni;
 
 # Ochylenie przecietne jako miara ryzyka
-minimize ryzyko_koszty: ryzyko + koszt	;
+minimize ryzyko_koszty: ryzyko + koszt_sredni;
 
-subject to ograniczenie_produkcji {t in TOWARY}: sum{m in MASZYNY} a[t,m] >= produkcja[t];
+subject to produkcja_ogr {t in TOWARY}: sum{m in MASZYNY} a[t,m] >= produkcja[t];
 
-subject to koszt_od_stanu {s in 1..stan}: sum{t in TOWARY, m in MASZYNY} a[t,m]*zuzycie[t,m]*koszt_stanu[s,m] <= koszt[s];
+subject to koszt_od_stanu_ogr {s in 1..stan}: sum{t in TOWARY, m in MASZYNY} a[t,m]*zuzycie[t,m]*koszt_stanu[s,m] <= koszt[s];
 
-subject to koszt_sredni: (sum{s in 1..stan} koszt[s])/stan <= koszt_sredni;
+subject to koszt_sredni_ogr: (sum{s in 1..stan} koszt[s])/stan <= koszt_sredni;
 
-subject to wartosc_ryzyka: (sum{s in 1..stan} abs(koszt[s]-koszt_sredni))/stan <= ryzyko;
+subject to wartosc_ryzyka_ogr: (sum{s in 1..stan} abs(koszt[s]-koszt_sredni))/stan <= ryzyko;
