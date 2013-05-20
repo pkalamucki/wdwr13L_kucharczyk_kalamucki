@@ -1,3 +1,4 @@
+reset;
 # PLIK MODELU
 # Deklaracje zbiorów i parametrow zadania
 
@@ -39,19 +40,32 @@ var a {t in TOWARY, m in MASZYNY} >= 0;
 # Wartosc binarna wydzierzawienia czasu dodatkowego na maszne
 var czas_dod_amt {m in MASZYNY} binary;
 
+# Wartość kosztu dodatkowego na maszynie
+var koszt_dod_m {m in MASZYNY} >= 0;
+
 var ryzyko;
 
 var koszt_sredni;
 
 # Ochylenie przecietne jako miara ryzyka
-minimize ryzyko_koszty: ryzyko;
+minimize ryzyko_koszty: koszt_sredni;
 
 subject to produkcja_ogr {t in TOWARY}: sum{m in MASZYNY} a[t,m] >= produkcja[t];
 
-subject to koszt_od_stanu_ogr {s in 1..stan}: (sum{m in MASZYNY, t in TOWARY} a[t,m]*zuzycie[m,t]*koszt_stanu[s,m] + czas_dod_amt[m]*czas_dod*koszt_dod) <= koszt[s];
+subject to koszt_od_stanu_ogr {s in 1..stan}: sum{m in MASZYNY, t in TOWARY} (a[t,m]*zuzycie[m,t]*koszt_stanu[s,m] + koszt_dod_m[m]) <= koszt[s];
+
+subject to koszt_dod_ogr1 {m in MASZYNY}: ((sum{t in TOWARY} a[t,m]*zuzycie[m,t])-max_czas)*koszt_dod <= koszt_dod_m[m] + 500*czas_dod_amt[m];
+subject to koszt_dod_ogr2 {m in MASZYNY}: sum{t in TOWARY} a[t,m]*zuzycie[m,t] <= max_czas + (czas_dod +0.001)*(1-czas_dod_amt[m]);
 
 subject to koszt_sredni_ogr: (sum{s in 1..stan} koszt[s])/stan <= koszt_sredni;
 
 subject to wartosc_ryzyka_ogr: (sum{s in 1..stan} abs(koszt[s]-koszt_sredni))/stan <= ryzyko;
 
-subject to czas_pracy_ogr {t in TOWARY}: (sum{m in MASZYNY} a[t,m]*zuzycie[m,t] - czas_dod_amt[m]*czas_dod) <= max_czas;
+subject to czas_pracy_ogr {t in TOWARY}: sum{m in MASZYNY} (a[t,m]*zuzycie[m,t]) <= max_czas+czas_dod;
+
+#editme
+data D:\projekty\wdwr13L_kucharczyk_kalamucki\dane.dat;
+
+solve;
+
+display _varname, _var;
