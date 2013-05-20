@@ -36,17 +36,22 @@ var koszt{1..stan};
 # Produkcja towaru na maszynie
 var a {t in TOWARY, m in MASZYNY} >= 0;
 
+# Wartosc binarna wydzierzawienia czasu dodatkowego na maszne
+var czas_dod_amt {m in MASZYNY} binary;
+
 var ryzyko;
 
 var koszt_sredni;
 
 # Ochylenie przecietne jako miara ryzyka
-minimize ryzyko_koszty: ryzyko + koszt_sredni;
+minimize ryzyko_koszty: ryzyko;
 
 subject to produkcja_ogr {t in TOWARY}: sum{m in MASZYNY} a[t,m] >= produkcja[t];
 
-subject to koszt_od_stanu_ogr {s in 1..stan}: sum{m in MASZYNY, t in TOWARY} a[t,m]*zuzycie[m,t]*koszt_stanu[s,m] <= koszt[s];
+subject to koszt_od_stanu_ogr {s in 1..stan}: (sum{m in MASZYNY, t in TOWARY} a[t,m]*zuzycie[m,t]*koszt_stanu[s,m] + czas_dod_amt[m]*czas_dod*koszt_dod) <= koszt[s];
 
 subject to koszt_sredni_ogr: (sum{s in 1..stan} koszt[s])/stan <= koszt_sredni;
 
 subject to wartosc_ryzyka_ogr: (sum{s in 1..stan} abs(koszt[s]-koszt_sredni))/stan <= ryzyko;
+
+subject to czas_pracy_ogr {t in TOWARY}: (sum{m in MASZYNY} a[t,m]*zuzycie[m,t] - czas_dod_amt[m]*czas_dod) <= max_czas;

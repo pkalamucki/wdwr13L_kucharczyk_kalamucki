@@ -18,14 +18,23 @@ M1 70 40 150 30 100
 M2 80 100 90 40 70
 M3 140 50 40 90 100;
 
-# Koszty wykorzystania maszyn [zl]
+# Koszty wykorzystania maszyn [zl/h]
+
+#param koszt_stanu:
+#M1 M2 M3:=
+#1 20 25 30
+#2 40 30 45
+#3 35 20 40
+#4 45 50 25;
+
+# Koszty wykorzystania maszyn [zl/min]
 
 param koszt_stanu:
 M1 M2 M3:=
-1 20 25 30
-2 40 30 45
-3 35 20 40
-4 45 50 25;
+1 0.33 0.417 0.5
+2 0.667 0.5 0.75
+3 0.583 0.33 0.667
+4 0.75 0.833 0.417;
 
 # Prawdopodobienstwo wystapienia stanu - Zmienne losowe kosztu 1 godziny pracy maszyn
 
@@ -46,14 +55,14 @@ E 120;
 
 # Maksymalny czas dzierżawy [godz]
 
-param max_czas:=180;
+param max_czas:=10800;
 
 # Czas dodatkowej dzierzawy [godz]
 
-param czas_dod:=50;
+param czas_dod:=3000;
 
-# Koszt dodatkowej dzierzawy [zl/godz]
+# Koszt dodatkowej dzierzawy [zl/min]
 
-param koszt_dod:=10;
+param koszt_dod:=0.667;
 
 
