@@ -46,7 +46,7 @@ param prawd_stanu:=
 
 # Wielkosc produkcji [szt.]
 
-param produkcja:=
+param min_produkcja:=
 A 60
 B 60
 C 60
