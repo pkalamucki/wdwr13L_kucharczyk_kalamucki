@@ -1,0 +1,17 @@
+reset;
+
+model model.mod;
+data dane.dat;
+
+#option solver cplex;
+
+param interval;
+let interval := 0.1;
+
+for {i in 0..(1/interval)} {
+   let y := i*interval;
+	display y;
+	solve;
+};
+
+display _varname, _var;

@@ -1,0 +1,19 @@
+reset;
+option solver "/home/kkucharc/Pobrane/minos";
+model model.mod;
+data dane.dat;
+
+#option solver cplex;
+
+param interval;
+let interval := 0.05;
+
+display 'Soving output' > output;
+for {i in 0..(1/interval)} {
+   let y := i*interval;
+	solve;
+	display y, _varname, _var;
+	display y, _varname, _var >> output;
+};
+
+

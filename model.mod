@@ -1,4 +1,4 @@
-reset;
+
 # PLIK MODELU
 # Deklaracje zbiorów i parametrow zadania
 
@@ -6,6 +6,10 @@ set TOWARY;
 set MASZYNY;
 
 # -- PARAMETRY --
+
+param y;
+
+
 # Liczba stanow zmiennej losowej
 param stan;
 
@@ -46,7 +50,7 @@ var ryzyko;
 var koszt_sredni;
 
 # Ochylenie przecietne jako miara ryzyka
-minimize ryzyko_koszty: ryzyko;
+minimize ryzyko_koszty:  koszt_sredni*y + ryzyko*(1-y);
 
 # Dolne ograniczenie ilości wyprodukowanych towarów
 subject to produkcja_ogr {t in TOWARY}: sum{m in MASZYNY} produkcja[t,m] >= min_produkcja[t];
@@ -65,16 +69,14 @@ subject to koszt_sredni_ogr: (sum{s in 1..stan} koszt[s])/stan = koszt_sredni;
 
 subject to wartosc_ryzyka_ogr: (sum{s in 1..stan} abs(koszt[s]-koszt_sredni))/stan = ryzyko;
 
-subject to czas_pracy_ogr {m in MASZYNY}: sum{t in TOWARY} (produkcja[t,m]*zuzycie[m,t]) <= max_czas;
+#subject to czas_pracy_ogr {m in MASZYNY}: sum{t in TOWARY} (produkcja[t,m]*zuzycie[m,t]) <= max_czas;
  
-#subject to c1 {m in MASZYNY}: (if (sum{t in TOWARY} (produkcja[t,m]*zuzycie[m,t]) <= max_czas) then 1 else 0) = czas_dod_bin[m];
-
-subject to c1 {m in MASZYNY}: (if (sum{t in TOWARY} (produkcja[t,m]*zuzycie[m,t]) <= max_czas) then 1 else 0) = czas_dod_bin[m];
+subject to c1 {m in MASZYNY}: (if (sum{t in TOWARY} (produkcja[t,m]*zuzycie[m,t]) >= max_czas) then 1 else 0) = czas_dod_bin[m];
 
 
 #editme
-data dane.dat;
+#data dane.dat;
 
-solve;
+#solve;
 
-display _varname, _var;
+
