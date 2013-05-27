@@ -1,4 +1,3 @@
-
 # PLIK MODELU
 # Deklaracje zbiorów i parametrow zadania
 
@@ -7,7 +6,11 @@ set MASZYNY;
 
 # -- PARAMETRY --
 
-param y;
+# waga ryzyka
+param wr;
+
+# waga kosztu
+param wk;
 
 
 # Liczba stanow zmiennej losowej
@@ -45,6 +48,9 @@ var produkcja {t in TOWARY, m in MASZYNY} integer >= 0;
 # Wartosc binarna wydzierzawienia czasu dodatkowego na maszne
 var czas_dod_bin {m in MASZYNY} binary := 0;
 
+var wywazony_koszt;
+var wywazone_ryzyko;
+
 var ryzyko;
 
 var koszt_sredni;
@@ -52,7 +58,7 @@ var koszt_sredni;
 var koszt_dod_m {m in MASZYNY} >= 0;
 
 # Ochylenie przecietne jako miara ryzyka
-minimize ryzyko_koszty:  koszt_sredni*y + ryzyko*(1-y);
+minimize ryzyko_koszty:  koszt_sredni*wk + ryzyko*wr;
 
 # Dolne ograniczenie ilości wyprodukowanych towarów
 subject to produkcja_ogr {t in TOWARY}: sum{m in MASZYNY} produkcja[t,m] >= min_produkcja[t];
@@ -67,10 +73,5 @@ subject to c1 {m in MASZYNY}: (if (sum{t in TOWARY} (produkcja[t,m]*zuzycie[m,t]
 
 subject to kosz_dodatkowy_ogr {m in MASZYNY}: ((sum{t in TOWARY} produkcja[t,m]*zuzycie[m,t])-max_czas)*koszt_dod*czas_dod_bin[m] = koszt_dod_m[m];
 
-
-#editme
-#data dane.dat;
-
-#solve;
-
-
+subject to wywazony_koszt_ogr: koszt_sredni*wk = wywazony_koszt;
+subject to wywazone_ryzyko_ogr: ryzyko*wr = wywazone_ryzyko;

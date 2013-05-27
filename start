@@ -6,14 +6,51 @@ data dane.dat;
 #option solver cplex;
 
 param interval;
+param interval_wr;
+param interval_wk;
+
 let interval := 0.05;
+let interval_wr := 1;
+let interval_wk := 0.1;
 
 display 'Soving output' > output;
-for {i in 0..(1/interval)} {
-   let y := i*interval;
+
+display 'Situation 1' > output;
+for {i in 0..10} {
+   let wr := i*interval_wr;
+	let wk := i*interval_wk;
 	solve;
-	display y, _varname, _var;
-	display y, _varname, _var >> output;
+	display _varname, _var;
+	display _varname, _var >> output;
+	display wk >> output;
+	display wr >> output;
+};
+
+display 'Situation 2' > output;
+for {i in 0..10} {
+   let wr := ((1/interval)-i)*interval_wr;
+	let wk := i*interval_wk;
+	solve;
+	display _varname, _var;
+	display _varname, _var >> output;
+};
+
+display 'Situation 3' > output;
+for {i in 0..10} {
+   let wr := i*interval_wr;
+	let wk := ((1/interval)-i)*interval_wk;
+	solve;
+	display _varname, _var;
+	display _varname, _var >> output;
+};
+
+display 'Situation 4' > output;
+for {i in 0..10} {
+   let wr := ((1/interval)-i)*interval_wr;
+	let wk := ((1/interval)-i)*interval_wk;
+	solve;
+	display _varname, _var;
+	display _varname, _var >> output;
 };
 
 
