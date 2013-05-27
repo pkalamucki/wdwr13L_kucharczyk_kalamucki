@@ -49,6 +49,8 @@ var ryzyko;
 
 var koszt_sredni;
 
+var koszt_dod_m {m in MASZYNY} >= 0;
+
 # Ochylenie przecietne jako miara ryzyka
 minimize ryzyko_koszty:  koszt_sredni*y + ryzyko*(1-y);
 
@@ -56,22 +58,14 @@ minimize ryzyko_koszty:  koszt_sredni*y + ryzyko*(1-y);
 subject to produkcja_ogr {t in TOWARY}: sum{m in MASZYNY} produkcja[t,m] >= min_produkcja[t];
 
 subject to koszt_od_stanu_ogr {s in 1..stan}: (sum{m in MASZYNY, t in TOWARY} produkcja[t,m]*zuzycie[m,t]*koszt_stanu[s,m]) = koszt[s];
-#+ czas_dod_bin[m]*koszt_dod) = koszt[s];
-
-# produkcja podstawowa
-#subject to koszt_od_stanu_ogr {s in 1..stan}: sum{m in MASZYNY, t in TOWARY} produkcja[t,m]*zuzycie[m,t]*koszt_stanu[s,m] <= koszt[s]; 
-
-
-#subject to koszt_dod_ogr1 {m in MASZYNY}: sum{t in TOWARY} produkcja[t,m]*zuzycie[m,t]-max_czas*koszt_dod = koszt_dod_m[m];
-#subject to koszt_dod_ogr2 {m in MASZYNY}: sum{t in TOWARY} prodykcja[t,m]*zuzycie[m,t] <= max_czas + (czas_dod +0.001)*(1-czas_dod_amt[m]);
 
 subject to koszt_sredni_ogr: (sum{s in 1..stan} koszt[s])/stan = koszt_sredni;
 
 subject to wartosc_ryzyka_ogr: (sum{s in 1..stan} abs(koszt[s]-koszt_sredni))/stan = ryzyko;
-
-#subject to czas_pracy_ogr {m in MASZYNY}: sum{t in TOWARY} (produkcja[t,m]*zuzycie[m,t]) <= max_czas;
  
 subject to c1 {m in MASZYNY}: (if (sum{t in TOWARY} (produkcja[t,m]*zuzycie[m,t]) >= max_czas) then 1 else 0) = czas_dod_bin[m];
+
+subject to kosz_dodatkowy_ogr {m in MASZYNY}: ((sum{t in TOWARY} produkcja[t,m]*zuzycie[m,t])-max_czas)*koszt_dod*czas_dod_bin[m] = koszt_dod_m[m];
 
 
 #editme

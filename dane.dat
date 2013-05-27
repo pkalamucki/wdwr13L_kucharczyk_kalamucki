@@ -53,11 +53,11 @@ C 60
 D 120
 E 120;
 
-# Maksymalny czas dzierżawy [godz]
+# Maksymalny czas dzierżawy [min]
 
 param max_czas:=10800;
 
-# Czas dodatkowej dzierzawy [godz]
+# Czas dodatkowej dzierzawy [min]
 
 param czas_dod:=3000;
 
