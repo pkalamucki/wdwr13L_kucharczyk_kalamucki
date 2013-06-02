@@ -1,0 +1,30 @@
+reset;
+option solver "/home/kkucharc/Pobrane/minos";
+model model.mod;
+data dane.dat;
+
+#option solver cplex;
+
+param iterations;
+param interval_wr;
+param interval_wk;
+
+let iterations := 1000;
+let interval_wk := 0.001;
+
+display 'Soving output' > output2;
+
+display 'Situation 1' >> output2;
+for {i in 0..iterations} {
+   
+	let wk := i*interval_wk;
+	let wr := (1-wk)*10;
+	solve;
+
+	display wk, wr, ryzyko, koszt_sredni >> output2;
+};
+
+
+
+
+

@@ -5,52 +5,51 @@ data dane.dat;
 
 #option solver cplex;
 
-param interval;
+param iterations;
 param interval_wr;
 param interval_wk;
 
-let interval := 0.05;
+let iterations := 100;
 let interval_wr := 1;
 let interval_wk := 0.1;
 
 display 'Soving output' > output;
 
-display 'Situation 1' > output;
-for {i in 0..10} {
+display 'Situation 1' >> output;
+for {i in 0..iterations} {
    let wr := i*interval_wr;
 	let wk := i*interval_wk;
 	solve;
-	display _varname, _var;
-	display _varname, _var >> output;
-	display wk >> output;
-	display wr >> output;
+#	display _varname, _var;
+#	display _varname, _var >> output;
+
+	display wk, wr, ryzyko, koszt_sredni >> output;
+#	display wr >> output;
 };
 
-display 'Situation 2' > output;
-for {i in 0..10} {
-   let wr := ((1/interval)-i)*interval_wr;
+display 'Situation 2' >> output;
+for {i in 0..iterations} {
+   let wr := (iterations-i)*interval_wr;
 	let wk := i*interval_wk;
 	solve;
-	display _varname, _var;
-	display _varname, _var >> output;
+	display wk, wr, ryzyko, koszt_sredni >> output;
 };
 
-display 'Situation 3' > output;
-for {i in 0..10} {
+display 'Situation 3' >> output;
+for {i in 0..iterations} {
    let wr := i*interval_wr;
-	let wk := ((1/interval)-i)*interval_wk;
+	let wk := (iterations-i)*interval_wk;
 	solve;
-	display _varname, _var;
-	display _varname, _var >> output;
+	display wk, wr, ryzyko, koszt_sredni >> output;
 };
 
-display 'Situation 4' > output;
-for {i in 0..10} {
-   let wr := ((1/interval)-i)*interval_wr;
-	let wk := ((1/interval)-i)*interval_wk;
+display 'Situation 4' >> output;
+for {i in 0..iterations} {
+   let wr := (iterations-i)*interval_wr;
+	let wk := (iterations-i)*interval_wk;
 	solve;
-	display _varname, _var;
-	display _varname, _var >> output;
+	display wk, wr, ryzyko, koszt_sredni >> output;
 };
+
 
 

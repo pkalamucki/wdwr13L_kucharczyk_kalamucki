@@ -2,1461 +2,2029 @@
 
 'Situation 1' = 'Situation 1'
 
-:          _varname           _var      :=
-1    'koszt[1]'               8882.4
-2    'koszt[2]'              12802.2
-3    'koszt[3]'               9804.6
-4    'koszt[4]'              16946.4
-5    "produkcja['A','M1']"      60
-6    "produkcja['A','M2']"       0
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"      60
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"       0
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"     120
-19   "produkcja['E','M3']"       0
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        0
-23   wywazony_koszt              0
-24   wywazone_ryzyko             0
-25   ryzyko                   2765.4
-26   koszt_sredni            12108.9
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"      1600.8
-29   "koszt_dod_m['M3']"         0
-;
-
 wk = 0
-
 wr = 0
-
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt           1476.86
-24   wywazone_ryzyko          1582.2
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+ryzyko = 2765.4
+koszt_sredni = 12108.9
 
 wk = 0.1
-
 wr = 1
-
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt           2953.72
-24   wywazone_ryzyko          3164.4
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
 wk = 0.2
-
 wr = 2
-
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt           4430.58
-24   wywazone_ryzyko          4746.6
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
 wk = 0.3
-
 wr = 3
-
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt           5907.45
-24   wywazone_ryzyko          6328.8
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
 wk = 0.4
-
 wr = 4
-
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt           7384.31
-24   wywazone_ryzyko          7911
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
 wk = 0.5
-
 wr = 5
-
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt           8861.17
-24   wywazone_ryzyko          9493.2
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
 wk = 0.6
-
 wr = 6
-
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          10338
-24   wywazone_ryzyko         11075.4
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
 wk = 0.7
-
 wr = 7
-
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          11814.9
-24   wywazone_ryzyko         12657.6
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
 wk = 0.8
-
 wr = 8
-
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          13291.8
-24   wywazone_ryzyko         14239.8
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
 wk = 0.9
-
 wr = 9
-
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          14768.6
-24   wywazone_ryzyko         15822
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
 wk = 1
-
 wr = 10
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.1
+wr = 11
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.2
+wr = 12
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.3
+wr = 13
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.4
+wr = 14
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.5
+wr = 15
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.6
+wr = 16
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.7
+wr = 17
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.8
+wr = 18
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.9
+wr = 19
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2
+wr = 20
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.1
+wr = 21
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.2
+wr = 22
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.3
+wr = 23
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.4
+wr = 24
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.5
+wr = 25
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.6
+wr = 26
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.7
+wr = 27
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.8
+wr = 28
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.9
+wr = 29
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3
+wr = 30
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.1
+wr = 31
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.2
+wr = 32
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.3
+wr = 33
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.4
+wr = 34
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.5
+wr = 35
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.6
+wr = 36
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.7
+wr = 37
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.8
+wr = 38
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.9
+wr = 39
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4
+wr = 40
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.1
+wr = 41
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.2
+wr = 42
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.3
+wr = 43
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.4
+wr = 44
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.5
+wr = 45
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.6
+wr = 46
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.7
+wr = 47
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.8
+wr = 48
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.9
+wr = 49
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5
+wr = 50
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.1
+wr = 51
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.2
+wr = 52
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.3
+wr = 53
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.4
+wr = 54
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.5
+wr = 55
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.6
+wr = 56
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.7
+wr = 57
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.8
+wr = 58
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.9
+wr = 59
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6
+wr = 60
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.1
+wr = 61
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.2
+wr = 62
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.3
+wr = 63
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.4
+wr = 64
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.5
+wr = 65
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.6
+wr = 66
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.7
+wr = 67
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.8
+wr = 68
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.9
+wr = 69
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7
+wr = 70
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.1
+wr = 71
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.2
+wr = 72
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.3
+wr = 73
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.4
+wr = 74
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.5
+wr = 75
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.6
+wr = 76
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.7
+wr = 77
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.8
+wr = 78
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.9
+wr = 79
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8
+wr = 80
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.1
+wr = 81
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.2
+wr = 82
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.3
+wr = 83
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.4
+wr = 84
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.5
+wr = 85
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.6
+wr = 86
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.7
+wr = 87
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.8
+wr = 88
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.9
+wr = 89
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 9
+wr = 90
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 9.1
+wr = 91
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 9.2
+wr = 92
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 9.3
+wr = 93
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 9.4
+wr = 94
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 9.5
+wr = 95
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 9.6
+wr = 96
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 9.7
+wr = 97
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 9.8
+wr = 98
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 9.9
+wr = 99
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 10
+wr = 100
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
 'Situation 2' = 'Situation 2'
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt              0
-24   wywazone_ryzyko         31644
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 0
+wr = 100
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt           1476.86
-24   wywazone_ryzyko         30061.8
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 0.1
+wr = 99
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt           2953.72
-24   wywazone_ryzyko         28479.6
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 0.2
+wr = 98
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt           4430.58
-24   wywazone_ryzyko         26897.4
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 0.3
+wr = 97
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt           5907.45
-24   wywazone_ryzyko         25315.2
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 0.4
+wr = 96
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt           7384.31
-24   wywazone_ryzyko         23733
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 0.5
+wr = 95
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt           8861.17
-24   wywazone_ryzyko         22150.8
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 0.6
+wr = 94
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          10338
-24   wywazone_ryzyko         20568.6
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 0.7
+wr = 93
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          11814.9
-24   wywazone_ryzyko         18986.4
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 0.8
+wr = 92
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          13291.8
-24   wywazone_ryzyko         17404.2
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 0.9
+wr = 91
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          14768.6
-24   wywazone_ryzyko         15822
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 1
+wr = 90
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.1
+wr = 89
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.2
+wr = 88
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.3
+wr = 87
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.4
+wr = 86
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.5
+wr = 85
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.6
+wr = 84
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.7
+wr = 83
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.8
+wr = 82
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.9
+wr = 81
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2
+wr = 80
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.1
+wr = 79
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.2
+wr = 78
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.3
+wr = 77
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.4
+wr = 76
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.5
+wr = 75
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.6
+wr = 74
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.7
+wr = 73
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.8
+wr = 72
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.9
+wr = 71
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3
+wr = 70
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.1
+wr = 69
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.2
+wr = 68
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.3
+wr = 67
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.4
+wr = 66
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.5
+wr = 65
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.6
+wr = 64
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.7
+wr = 63
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.8
+wr = 62
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.9
+wr = 61
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4
+wr = 60
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.1
+wr = 59
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.2
+wr = 58
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.3
+wr = 57
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.4
+wr = 56
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.5
+wr = 55
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.6
+wr = 54
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.7
+wr = 53
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.8
+wr = 52
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.9
+wr = 51
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5
+wr = 50
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.1
+wr = 49
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.2
+wr = 48
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.3
+wr = 47
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.4
+wr = 46
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.5
+wr = 45
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.6
+wr = 44
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.7
+wr = 43
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.8
+wr = 42
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.9
+wr = 41
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6
+wr = 40
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.1
+wr = 39
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.2
+wr = 38
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.3
+wr = 37
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.4
+wr = 36
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.5
+wr = 35
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.6
+wr = 34
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.7
+wr = 33
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.8
+wr = 32
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.9
+wr = 31
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7
+wr = 30
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.1
+wr = 29
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.2
+wr = 28
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.3
+wr = 27
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.4
+wr = 26
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.5
+wr = 25
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.6
+wr = 24
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.7
+wr = 23
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.8
+wr = 22
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.9
+wr = 21
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8
+wr = 20
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.1
+wr = 19
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.2
+wr = 18
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.3
+wr = 17
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.4
+wr = 16
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.5
+wr = 15
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.6
+wr = 14
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.7
+wr = 13
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.8
+wr = 12
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.9
+wr = 11
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 9
+wr = 10
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 9.1
+wr = 9
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 9.2
+wr = 8
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 9.3
+wr = 7
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 9.4
+wr = 6
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 9.5
+wr = 5
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 9.6
+wr = 4
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 9.7
+wr = 3
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 9.8
+wr = 2
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 9.9
+wr = 1
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 10
+wr = 0
+ryzyko = 1905.39
+koszt_sredni = 13411.9
 
 'Situation 3' = 'Situation 3'
 
-:          _varname            _var      :=
-1    'koszt[1]'              10750
-2    'koszt[2]'              15210.9
-3    'koszt[3]'              12263
-4    'koszt[4]'              15423.7
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"      85.5
-15   "produkcja['D','M2']"      34.5
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      66
-19   "produkcja['E','M3']"      54
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          26823.8
-24   wywazone_ryzyko             0
-25   ryzyko                   1905.39
-26   koszt_sredni            13411.9
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"         0
-;
+wk = 10
+wr = 0
+ryzyko = 1905.39
+koszt_sredni = 13411.9
 
-:          _varname            _var      :=
-1    'koszt[1]'              10750
-2    'koszt[2]'              15210.9
-3    'koszt[3]'              12263
-4    'koszt[4]'              15423.7
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"      85.5
-15   "produkcja['D','M2']"      34.5
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      66
-19   "produkcja['E','M3']"      54
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          25482.6
-24   wywazone_ryzyko          1905.39
-25   ryzyko                   1905.39
-26   koszt_sredni            13411.9
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"         0
-;
+wk = 9.9
+wr = 1
+ryzyko = 1905.39
+koszt_sredni = 13411.9
 
-:          _varname            _var      :=
-1    'koszt[1]'              10750
-2    'koszt[2]'              15210.9
-3    'koszt[3]'              12263
-4    'koszt[4]'              15423.7
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"      85.5
-15   "produkcja['D','M2']"      34.5
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      66
-19   "produkcja['E','M3']"      54
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          24141.4
-24   wywazone_ryzyko          3810.78
-25   ryzyko                   1905.39
-26   koszt_sredni            13411.9
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"         0
-;
+wk = 9.8
+wr = 2
+ryzyko = 1905.39
+koszt_sredni = 13411.9
 
-:          _varname            _var      :=
-1    'koszt[1]'              10750
-2    'koszt[2]'              15210.9
-3    'koszt[3]'              12263
-4    'koszt[4]'              15423.7
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"      85.5
-15   "produkcja['D','M2']"      34.5
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      66
-19   "produkcja['E','M3']"      54
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          22800.3
-24   wywazone_ryzyko          5716.17
-25   ryzyko                   1905.39
-26   koszt_sredni            13411.9
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"         0
-;
+wk = 9.7
+wr = 3
+ryzyko = 1905.39
+koszt_sredni = 13411.9
 
-:          _varname            _var      :=
-1    'koszt[1]'              10750
-2    'koszt[2]'              15210.9
-3    'koszt[3]'              12263
-4    'koszt[4]'              15423.7
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"      85.5
-15   "produkcja['D','M2']"      34.5
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      66
-19   "produkcja['E','M3']"      54
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          21459.1
-24   wywazone_ryzyko          7621.56
-25   ryzyko                   1905.39
-26   koszt_sredni            13411.9
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"         0
-;
+wk = 9.6
+wr = 4
+ryzyko = 1905.39
+koszt_sredni = 13411.9
 
-:          _varname            _var      :=
-1    'koszt[1]'              10750
-2    'koszt[2]'              15210.9
-3    'koszt[3]'              12263
-4    'koszt[4]'              15423.7
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"      85.5
-15   "produkcja['D','M2']"      34.5
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      66
-19   "produkcja['E','M3']"      54
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          20117.9
-24   wywazone_ryzyko          9526.95
-25   ryzyko                   1905.39
-26   koszt_sredni            13411.9
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"         0
-;
+wk = 9.5
+wr = 5
+ryzyko = 1905.39
+koszt_sredni = 13411.9
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          20676.1
-24   wywazone_ryzyko          9493.2
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 9.4
+wr = 6
+ryzyko = 1905.39
+koszt_sredni = 13411.9
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          19199.2
-24   wywazone_ryzyko         11075.4
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 9.3
+wr = 7
+ryzyko = 1905.39
+koszt_sredni = 13411.9
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          17722.3
-24   wywazone_ryzyko         12657.6
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 9.2
+wr = 8
+ryzyko = 1905.39
+koszt_sredni = 13411.9
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          16245.5
-24   wywazone_ryzyko         14239.8
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 9.1
+wr = 9
+ryzyko = 1905.39
+koszt_sredni = 13411.9
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          14768.6
-24   wywazone_ryzyko         15822
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 9
+wr = 10
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.9
+wr = 11
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.8
+wr = 12
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.7
+wr = 13
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.6
+wr = 14
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.5
+wr = 15
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.4
+wr = 16
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.3
+wr = 17
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.2
+wr = 18
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8.1
+wr = 19
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 8
+wr = 20
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.9
+wr = 21
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.8
+wr = 22
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.7
+wr = 23
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.6
+wr = 24
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.5
+wr = 25
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.4
+wr = 26
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.3
+wr = 27
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.2
+wr = 28
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7.1
+wr = 29
+ryzyko = 1905.39
+koszt_sredni = 13411.9
+
+wk = 7
+wr = 30
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.9
+wr = 31
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.8
+wr = 32
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.7
+wr = 33
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.6
+wr = 34
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.5
+wr = 35
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.4
+wr = 36
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.3
+wr = 37
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.2
+wr = 38
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.1
+wr = 39
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6
+wr = 40
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.9
+wr = 41
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.8
+wr = 42
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.7
+wr = 43
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.6
+wr = 44
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.5
+wr = 45
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.4
+wr = 46
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.3
+wr = 47
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.2
+wr = 48
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.1
+wr = 49
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5
+wr = 50
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.9
+wr = 51
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.8
+wr = 52
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.7
+wr = 53
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.6
+wr = 54
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.5
+wr = 55
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.4
+wr = 56
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.3
+wr = 57
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.2
+wr = 58
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.1
+wr = 59
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4
+wr = 60
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.9
+wr = 61
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.8
+wr = 62
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.7
+wr = 63
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.6
+wr = 64
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.5
+wr = 65
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.4
+wr = 66
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.3
+wr = 67
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.2
+wr = 68
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.1
+wr = 69
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3
+wr = 70
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.9
+wr = 71
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.8
+wr = 72
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.7
+wr = 73
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.6
+wr = 74
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.5
+wr = 75
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.4
+wr = 76
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.3
+wr = 77
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.2
+wr = 78
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.1
+wr = 79
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2
+wr = 80
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.9
+wr = 81
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.8
+wr = 82
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.7
+wr = 83
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.6
+wr = 84
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.5
+wr = 85
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.4
+wr = 86
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.3
+wr = 87
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.2
+wr = 88
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.1
+wr = 89
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1
+wr = 90
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.9
+wr = 91
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.8
+wr = 92
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.7
+wr = 93
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.6
+wr = 94
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.5
+wr = 95
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.4
+wr = 96
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.3
+wr = 97
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.2
+wr = 98
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.1
+wr = 99
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0
+wr = 100
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
 'Situation 4' = 'Situation 4'
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          29537.2
-24   wywazone_ryzyko         31644
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 10
+wr = 100
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          28060.4
-24   wywazone_ryzyko         30061.8
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 9.9
+wr = 99
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          26583.5
-24   wywazone_ryzyko         28479.6
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 9.8
+wr = 98
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          25106.6
-24   wywazone_ryzyko         26897.4
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 9.7
+wr = 97
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          23629.8
-24   wywazone_ryzyko         25315.2
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 9.6
+wr = 96
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          22152.9
-24   wywazone_ryzyko         23733
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 9.5
+wr = 95
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          20676.1
-24   wywazone_ryzyko         22150.8
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 9.4
+wr = 94
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          19199.2
-24   wywazone_ryzyko         20568.6
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 9.3
+wr = 93
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          17722.3
-24   wywazone_ryzyko         18986.4
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 9.2
+wr = 92
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          16245.5
-24   wywazone_ryzyko         17404.2
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 9.1
+wr = 91
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 
-:          _varname             _var       :=
-1    'koszt[1]'              12346.5
-2    'koszt[2]'              17164.3
-3    'koszt[3]'              14026.4
-4    'koszt[4]'              15537.3
-5    "produkcja['A','M1']"       0
-6    "produkcja['A','M2']"      60
-7    "produkcja['A','M3']"       0
-8    "produkcja['B','M1']"       0
-9    "produkcja['B','M2']"       0
-10   "produkcja['B','M3']"      60
-11   "produkcja['C','M1']"       0
-12   "produkcja['C','M2']"       0
-13   "produkcja['C','M3']"      60
-14   "produkcja['D','M1']"       0
-15   "produkcja['D','M2']"     120
-16   "produkcja['D','M3']"       0
-17   "produkcja['E','M1']"       0
-18   "produkcja['E','M2']"      17.1429
-19   "produkcja['E','M3']"     102.857
-20   "czas_dod_bin['M1']"        0
-21   "czas_dod_bin['M2']"        1
-22   "czas_dod_bin['M3']"        1
-23   wywazony_koszt          14768.6
-24   wywazone_ryzyko         15822
-25   ryzyko                   1582.2
-26   koszt_sredni            14768.6
-27   "koszt_dod_m['M1']"         0
-28   "koszt_dod_m['M2']"         0
-29   "koszt_dod_m['M3']"      3258.77
-;
+wk = 9
+wr = 90
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.9
+wr = 89
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.8
+wr = 88
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.7
+wr = 87
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.6
+wr = 86
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.5
+wr = 85
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.4
+wr = 84
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.3
+wr = 83
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.2
+wr = 82
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8.1
+wr = 81
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 8
+wr = 80
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.9
+wr = 79
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.8
+wr = 78
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.7
+wr = 77
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.6
+wr = 76
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.5
+wr = 75
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.4
+wr = 74
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.3
+wr = 73
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.2
+wr = 72
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7.1
+wr = 71
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 7
+wr = 70
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.9
+wr = 69
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.8
+wr = 68
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.7
+wr = 67
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.6
+wr = 66
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.5
+wr = 65
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.4
+wr = 64
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.3
+wr = 63
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.2
+wr = 62
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6.1
+wr = 61
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 6
+wr = 60
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.9
+wr = 59
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.8
+wr = 58
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.7
+wr = 57
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.6
+wr = 56
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.5
+wr = 55
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.4
+wr = 54
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.3
+wr = 53
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.2
+wr = 52
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5.1
+wr = 51
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 5
+wr = 50
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.9
+wr = 49
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.8
+wr = 48
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.7
+wr = 47
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.6
+wr = 46
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.5
+wr = 45
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.4
+wr = 44
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.3
+wr = 43
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.2
+wr = 42
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4.1
+wr = 41
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 4
+wr = 40
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.9
+wr = 39
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.8
+wr = 38
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.7
+wr = 37
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.6
+wr = 36
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.5
+wr = 35
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.4
+wr = 34
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.3
+wr = 33
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.2
+wr = 32
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3.1
+wr = 31
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 3
+wr = 30
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.9
+wr = 29
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.8
+wr = 28
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.7
+wr = 27
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.6
+wr = 26
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.5
+wr = 25
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.4
+wr = 24
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.3
+wr = 23
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.2
+wr = 22
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2.1
+wr = 21
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 2
+wr = 20
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.9
+wr = 19
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.8
+wr = 18
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.7
+wr = 17
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.6
+wr = 16
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.5
+wr = 15
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.4
+wr = 14
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.3
+wr = 13
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.2
+wr = 12
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1.1
+wr = 11
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 1
+wr = 10
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.9
+wr = 9
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.8
+wr = 8
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.7
+wr = 7
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.6
+wr = 6
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.5
+wr = 5
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.4
+wr = 4
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.3
+wr = 3
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.2
+wr = 2
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0.1
+wr = 1
+ryzyko = 1582.2
+koszt_sredni = 14768.6
+
+wk = 0
+wr = 0
+ryzyko = 1582.2
+koszt_sredni = 14768.6
 

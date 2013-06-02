@@ -60,7 +60,7 @@ var koszt_dod_m {m in MASZYNY} >= 0;
 # Ochylenie przecietne jako miara ryzyka
 minimize ryzyko_koszty:  koszt_sredni*wk + ryzyko*wr;
 
-# Dolne ograniczenie ilości wyprodukowanych towarów
+
 subject to produkcja_ogr {t in TOWARY}: sum{m in MASZYNY} produkcja[t,m] >= min_produkcja[t];
 
 subject to koszt_od_stanu_ogr {s in 1..stan}: (sum{m in MASZYNY, t in TOWARY} produkcja[t,m]*zuzycie[m,t]*koszt_stanu[s,m]) = koszt[s];
@@ -69,9 +69,10 @@ subject to koszt_sredni_ogr: (sum{s in 1..stan} koszt[s])/stan = koszt_sredni;
 
 subject to wartosc_ryzyka_ogr: (sum{s in 1..stan} abs(koszt[s]-koszt_sredni))/stan = ryzyko;
  
-subject to c1 {m in MASZYNY}: (if (sum{t in TOWARY} (produkcja[t,m]*zuzycie[m,t]) >= max_czas) then 1 else 0) = czas_dod_bin[m];
+subject to czas_dodatkowy_ogr {m in MASZYNY}: (if (sum{t in TOWARY} (produkcja[t,m]*zuzycie[m,t]) >= max_czas) then 1 else 0) = czas_dod_bin[m];
 
 subject to kosz_dodatkowy_ogr {m in MASZYNY}: ((sum{t in TOWARY} produkcja[t,m]*zuzycie[m,t])-max_czas)*koszt_dod*czas_dod_bin[m] = koszt_dod_m[m];
 
+# do pogladu
 subject to wywazony_koszt_ogr: koszt_sredni*wk = wywazony_koszt;
 subject to wywazone_ryzyko_ogr: ryzyko*wr = wywazone_ryzyko;

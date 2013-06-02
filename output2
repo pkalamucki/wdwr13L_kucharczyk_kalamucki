@@ -1,0 +1,5009 @@
+'Soving output' = 'Soving output'
+
+'Situation 1' = 'Situation 1'
+
+wk = 0
+wr = 10
+ryzyko = 1382.94
+koszt_sredni = 15138.2
+
+wk = 0.001
+wr = 9.99
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.002
+wr = 9.98
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.003
+wr = 9.97
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.004
+wr = 9.96
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.005
+wr = 9.95
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.006
+wr = 9.94
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.007
+wr = 9.93
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.008
+wr = 9.92
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.009
+wr = 9.91
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.01
+wr = 9.9
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.011
+wr = 9.89
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.012
+wr = 9.88
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.013
+wr = 9.87
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.014
+wr = 9.86
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.015
+wr = 9.85
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.016
+wr = 9.84
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.017
+wr = 9.83
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.018
+wr = 9.82
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.019
+wr = 9.81
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.02
+wr = 9.8
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.021
+wr = 9.79
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.022
+wr = 9.78
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.023
+wr = 9.77
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.024
+wr = 9.76
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.025
+wr = 9.75
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.026
+wr = 9.74
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.027
+wr = 9.73
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.028
+wr = 9.72
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.029
+wr = 9.71
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.03
+wr = 9.7
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.031
+wr = 9.69
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.032
+wr = 9.68
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.033
+wr = 9.67
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.034
+wr = 9.66
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.035
+wr = 9.65
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.036
+wr = 9.64
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.037
+wr = 9.63
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.038
+wr = 9.62
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.039
+wr = 9.61
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.04
+wr = 9.6
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.041
+wr = 9.59
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.042
+wr = 9.58
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.043
+wr = 9.57
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.044
+wr = 9.56
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.045
+wr = 9.55
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.046
+wr = 9.54
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.047
+wr = 9.53
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.048
+wr = 9.52
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.049
+wr = 9.51
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.05
+wr = 9.5
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.051
+wr = 9.49
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.052
+wr = 9.48
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.053
+wr = 9.47
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.054
+wr = 9.46
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.055
+wr = 9.45
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.056
+wr = 9.44
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.057
+wr = 9.43
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.058
+wr = 9.42
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.059
+wr = 9.41
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.06
+wr = 9.4
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.061
+wr = 9.39
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.062
+wr = 9.38
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.063
+wr = 9.37
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.064
+wr = 9.36
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.065
+wr = 9.35
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.066
+wr = 9.34
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.067
+wr = 9.33
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.068
+wr = 9.32
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.069
+wr = 9.31
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.07
+wr = 9.3
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.071
+wr = 9.29
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.072
+wr = 9.28
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.073
+wr = 9.27
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.074
+wr = 9.26
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.075
+wr = 9.25
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.076
+wr = 9.24
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.077
+wr = 9.23
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.078
+wr = 9.22
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.079
+wr = 9.21
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.08
+wr = 9.2
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.081
+wr = 9.19
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.082
+wr = 9.18
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.083
+wr = 9.17
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.084
+wr = 9.16
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.085
+wr = 9.15
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.086
+wr = 9.14
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.087
+wr = 9.13
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.088
+wr = 9.12
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.089
+wr = 9.11
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.09
+wr = 9.1
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.091
+wr = 9.09
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.092
+wr = 9.08
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.093
+wr = 9.07
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.094
+wr = 9.06
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.095
+wr = 9.05
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.096
+wr = 9.04
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.097
+wr = 9.03
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.098
+wr = 9.02
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.099
+wr = 9.01
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.1
+wr = 9
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.101
+wr = 8.99
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.102
+wr = 8.98
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.103
+wr = 8.97
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.104
+wr = 8.96
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.105
+wr = 8.95
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.106
+wr = 8.94
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.107
+wr = 8.93
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.108
+wr = 8.92
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.109
+wr = 8.91
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.11
+wr = 8.9
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.111
+wr = 8.89
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.112
+wr = 8.88
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.113
+wr = 8.87
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.114
+wr = 8.86
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.115
+wr = 8.85
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.116
+wr = 8.84
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.117
+wr = 8.83
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.118
+wr = 8.82
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.119
+wr = 8.81
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.12
+wr = 8.8
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.121
+wr = 8.79
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.122
+wr = 8.78
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.123
+wr = 8.77
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.124
+wr = 8.76
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.125
+wr = 8.75
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.126
+wr = 8.74
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.127
+wr = 8.73
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.128
+wr = 8.72
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.129
+wr = 8.71
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.13
+wr = 8.7
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.131
+wr = 8.69
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.132
+wr = 8.68
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.133
+wr = 8.67
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.134
+wr = 8.66
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.135
+wr = 8.65
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.136
+wr = 8.64
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.137
+wr = 8.63
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.138
+wr = 8.62
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.139
+wr = 8.61
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.14
+wr = 8.6
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.141
+wr = 8.59
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.142
+wr = 8.58
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.143
+wr = 8.57
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.144
+wr = 8.56
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.145
+wr = 8.55
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.146
+wr = 8.54
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.147
+wr = 8.53
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.148
+wr = 8.52
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.149
+wr = 8.51
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.15
+wr = 8.5
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.151
+wr = 8.49
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.152
+wr = 8.48
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.153
+wr = 8.47
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.154
+wr = 8.46
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.155
+wr = 8.45
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.156
+wr = 8.44
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.157
+wr = 8.43
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.158
+wr = 8.42
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.159
+wr = 8.41
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.16
+wr = 8.4
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.161
+wr = 8.39
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.162
+wr = 8.38
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.163
+wr = 8.37
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.164
+wr = 8.36
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.165
+wr = 8.35
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.166
+wr = 8.34
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.167
+wr = 8.33
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.168
+wr = 8.32
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.169
+wr = 8.31
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.17
+wr = 8.3
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.171
+wr = 8.29
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.172
+wr = 8.28
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.173
+wr = 8.27
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.174
+wr = 8.26
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.175
+wr = 8.25
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.176
+wr = 8.24
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.177
+wr = 8.23
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.178
+wr = 8.22
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.179
+wr = 8.21
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.18
+wr = 8.2
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.181
+wr = 8.19
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.182
+wr = 8.18
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.183
+wr = 8.17
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.184
+wr = 8.16
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.185
+wr = 8.15
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.186
+wr = 8.14
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.187
+wr = 8.13
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.188
+wr = 8.12
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.189
+wr = 8.11
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.19
+wr = 8.1
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.191
+wr = 8.09
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.192
+wr = 8.08
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.193
+wr = 8.07
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.194
+wr = 8.06
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.195
+wr = 8.05
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.196
+wr = 8.04
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.197
+wr = 8.03
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.198
+wr = 8.02
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.199
+wr = 8.01
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.2
+wr = 8
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.201
+wr = 7.99
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.202
+wr = 7.98
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.203
+wr = 7.97
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.204
+wr = 7.96
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.205
+wr = 7.95
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.206
+wr = 7.94
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.207
+wr = 7.93
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.208
+wr = 7.92
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.209
+wr = 7.91
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.21
+wr = 7.9
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.211
+wr = 7.89
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.212
+wr = 7.88
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.213
+wr = 7.87
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.214
+wr = 7.86
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.215
+wr = 7.85
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.216
+wr = 7.84
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.217
+wr = 7.83
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.218
+wr = 7.82
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.219
+wr = 7.81
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.22
+wr = 7.8
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.221
+wr = 7.79
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.222
+wr = 7.78
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.223
+wr = 7.77
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.224
+wr = 7.76
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.225
+wr = 7.75
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.226
+wr = 7.74
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.227
+wr = 7.73
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.228
+wr = 7.72
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.229
+wr = 7.71
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.23
+wr = 7.7
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.231
+wr = 7.69
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.232
+wr = 7.68
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.233
+wr = 7.67
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.234
+wr = 7.66
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.235
+wr = 7.65
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.236
+wr = 7.64
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.237
+wr = 7.63
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.238
+wr = 7.62
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.239
+wr = 7.61
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.24
+wr = 7.6
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.241
+wr = 7.59
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.242
+wr = 7.58
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.243
+wr = 7.57
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.244
+wr = 7.56
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.245
+wr = 7.55
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.246
+wr = 7.54
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.247
+wr = 7.53
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.248
+wr = 7.52
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.249
+wr = 7.51
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.25
+wr = 7.5
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.251
+wr = 7.49
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.252
+wr = 7.48
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.253
+wr = 7.47
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.254
+wr = 7.46
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.255
+wr = 7.45
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.256
+wr = 7.44
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.257
+wr = 7.43
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.258
+wr = 7.42
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.259
+wr = 7.41
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.26
+wr = 7.4
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.261
+wr = 7.39
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.262
+wr = 7.38
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.263
+wr = 7.37
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.264
+wr = 7.36
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.265
+wr = 7.35
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.266
+wr = 7.34
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.267
+wr = 7.33
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.268
+wr = 7.32
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.269
+wr = 7.31
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.27
+wr = 7.3
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.271
+wr = 7.29
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.272
+wr = 7.28
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.273
+wr = 7.27
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.274
+wr = 7.26
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.275
+wr = 7.25
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.276
+wr = 7.24
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.277
+wr = 7.23
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.278
+wr = 7.22
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.279
+wr = 7.21
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.28
+wr = 7.2
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.281
+wr = 7.19
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.282
+wr = 7.18
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.283
+wr = 7.17
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.284
+wr = 7.16
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.285
+wr = 7.15
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.286
+wr = 7.14
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.287
+wr = 7.13
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.288
+wr = 7.12
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.289
+wr = 7.11
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.29
+wr = 7.1
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.291
+wr = 7.09
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.292
+wr = 7.08
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.293
+wr = 7.07
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.294
+wr = 7.06
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.295
+wr = 7.05
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.296
+wr = 7.04
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.297
+wr = 7.03
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.298
+wr = 7.02
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.299
+wr = 7.01
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.3
+wr = 7
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.301
+wr = 6.99
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.302
+wr = 6.98
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.303
+wr = 6.97
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.304
+wr = 6.96
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.305
+wr = 6.95
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.306
+wr = 6.94
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.307
+wr = 6.93
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.308
+wr = 6.92
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.309
+wr = 6.91
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.31
+wr = 6.9
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.311
+wr = 6.89
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.312
+wr = 6.88
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.313
+wr = 6.87
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.314
+wr = 6.86
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.315
+wr = 6.85
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.316
+wr = 6.84
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.317
+wr = 6.83
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.318
+wr = 6.82
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.319
+wr = 6.81
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.32
+wr = 6.8
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.321
+wr = 6.79
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.322
+wr = 6.78
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.323
+wr = 6.77
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.324
+wr = 6.76
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.325
+wr = 6.75
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.326
+wr = 6.74
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.327
+wr = 6.73
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.328
+wr = 6.72
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.329
+wr = 6.71
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.33
+wr = 6.7
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.331
+wr = 6.69
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.332
+wr = 6.68
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.333
+wr = 6.67
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.334
+wr = 6.66
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.335
+wr = 6.65
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.336
+wr = 6.64
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.337
+wr = 6.63
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.338
+wr = 6.62
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.339
+wr = 6.61
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.34
+wr = 6.6
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.341
+wr = 6.59
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.342
+wr = 6.58
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.343
+wr = 6.57
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.344
+wr = 6.56
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.345
+wr = 6.55
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.346
+wr = 6.54
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.347
+wr = 6.53
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.348
+wr = 6.52
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.349
+wr = 6.51
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.35
+wr = 6.5
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.351
+wr = 6.49
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.352
+wr = 6.48
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.353
+wr = 6.47
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.354
+wr = 6.46
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.355
+wr = 6.45
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.356
+wr = 6.44
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.357
+wr = 6.43
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.358
+wr = 6.42
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.359
+wr = 6.41
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.36
+wr = 6.4
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.361
+wr = 6.39
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.362
+wr = 6.38
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.363
+wr = 6.37
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.364
+wr = 6.36
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.365
+wr = 6.35
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.366
+wr = 6.34
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.367
+wr = 6.33
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.368
+wr = 6.32
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.369
+wr = 6.31
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.37
+wr = 6.3
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.371
+wr = 6.29
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.372
+wr = 6.28
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.373
+wr = 6.27
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.374
+wr = 6.26
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.375
+wr = 6.25
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.376
+wr = 6.24
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.377
+wr = 6.23
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.378
+wr = 6.22
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.379
+wr = 6.21
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.38
+wr = 6.2
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.381
+wr = 6.19
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.382
+wr = 6.18
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.383
+wr = 6.17
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.384
+wr = 6.16
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.385
+wr = 6.15
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.386
+wr = 6.14
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.387
+wr = 6.13
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.388
+wr = 6.12
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.389
+wr = 6.11
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.39
+wr = 6.1
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.391
+wr = 6.09
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.392
+wr = 6.08
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.393
+wr = 6.07
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.394
+wr = 6.06
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.395
+wr = 6.05
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.396
+wr = 6.04
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.397
+wr = 6.03
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.398
+wr = 6.02
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.399
+wr = 6.01
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.4
+wr = 6
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.401
+wr = 5.99
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.402
+wr = 5.98
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.403
+wr = 5.97
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.404
+wr = 5.96
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.405
+wr = 5.95
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.406
+wr = 5.94
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.407
+wr = 5.93
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.408
+wr = 5.92
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.409
+wr = 5.91
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.41
+wr = 5.9
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.411
+wr = 5.89
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.412
+wr = 5.88
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.413
+wr = 5.87
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.414
+wr = 5.86
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.415
+wr = 5.85
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.416
+wr = 5.84
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.417
+wr = 5.83
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.418
+wr = 5.82
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.419
+wr = 5.81
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.42
+wr = 5.8
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.421
+wr = 5.79
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.422
+wr = 5.78
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.423
+wr = 5.77
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.424
+wr = 5.76
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.425
+wr = 5.75
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.426
+wr = 5.74
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.427
+wr = 5.73
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.428
+wr = 5.72
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.429
+wr = 5.71
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.43
+wr = 5.7
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.431
+wr = 5.69
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.432
+wr = 5.68
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.433
+wr = 5.67
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.434
+wr = 5.66
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.435
+wr = 5.65
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.436
+wr = 5.64
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.437
+wr = 5.63
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.438
+wr = 5.62
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.439
+wr = 5.61
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.44
+wr = 5.6
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.441
+wr = 5.59
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.442
+wr = 5.58
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.443
+wr = 5.57
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.444
+wr = 5.56
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.445
+wr = 5.55
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.446
+wr = 5.54
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.447
+wr = 5.53
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.448
+wr = 5.52
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.449
+wr = 5.51
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.45
+wr = 5.5
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.451
+wr = 5.49
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.452
+wr = 5.48
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.453
+wr = 5.47
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.454
+wr = 5.46
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.455
+wr = 5.45
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.456
+wr = 5.44
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.457
+wr = 5.43
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.458
+wr = 5.42
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.459
+wr = 5.41
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.46
+wr = 5.4
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.461
+wr = 5.39
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.462
+wr = 5.38
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.463
+wr = 5.37
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.464
+wr = 5.36
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.465
+wr = 5.35
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.466
+wr = 5.34
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.467
+wr = 5.33
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.468
+wr = 5.32
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.469
+wr = 5.31
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.47
+wr = 5.3
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.471
+wr = 5.29
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.472
+wr = 5.28
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.473
+wr = 5.27
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.474
+wr = 5.26
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.475
+wr = 5.25
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.476
+wr = 5.24
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.477
+wr = 5.23
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.478
+wr = 5.22
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.479
+wr = 5.21
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.48
+wr = 5.2
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.481
+wr = 5.19
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.482
+wr = 5.18
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.483
+wr = 5.17
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.484
+wr = 5.16
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.485
+wr = 5.15
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.486
+wr = 5.14
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.487
+wr = 5.13
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.488
+wr = 5.12
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.489
+wr = 5.11
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.49
+wr = 5.1
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.491
+wr = 5.09
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.492
+wr = 5.08
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.493
+wr = 5.07
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.494
+wr = 5.06
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.495
+wr = 5.05
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.496
+wr = 5.04
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.497
+wr = 5.03
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.498
+wr = 5.02
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.499
+wr = 5.01
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.5
+wr = 5
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.501
+wr = 4.99
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.502
+wr = 4.98
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.503
+wr = 4.97
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.504
+wr = 4.96
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.505
+wr = 4.95
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.506
+wr = 4.94
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.507
+wr = 4.93
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.508
+wr = 4.92
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.509
+wr = 4.91
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.51
+wr = 4.9
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.511
+wr = 4.89
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.512
+wr = 4.88
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.513
+wr = 4.87
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.514
+wr = 4.86
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.515
+wr = 4.85
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.516
+wr = 4.84
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.517
+wr = 4.83
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.518
+wr = 4.82
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.519
+wr = 4.81
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.52
+wr = 4.8
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.521
+wr = 4.79
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.522
+wr = 4.78
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.523
+wr = 4.77
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.524
+wr = 4.76
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.525
+wr = 4.75
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.526
+wr = 4.74
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.527
+wr = 4.73
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.528
+wr = 4.72
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.529
+wr = 4.71
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.53
+wr = 4.7
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.531
+wr = 4.69
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.532
+wr = 4.68
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.533
+wr = 4.67
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.534
+wr = 4.66
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.535
+wr = 4.65
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.536
+wr = 4.64
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.537
+wr = 4.63
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.538
+wr = 4.62
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.539
+wr = 4.61
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.54
+wr = 4.6
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.541
+wr = 4.59
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.542
+wr = 4.58
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.543
+wr = 4.57
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.544
+wr = 4.56
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.545
+wr = 4.55
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.546
+wr = 4.54
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.547
+wr = 4.53
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.548
+wr = 4.52
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.549
+wr = 4.51
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.55
+wr = 4.5
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.551
+wr = 4.49
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.552
+wr = 4.48
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.553
+wr = 4.47
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.554
+wr = 4.46
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.555
+wr = 4.45
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.556
+wr = 4.44
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.557
+wr = 4.43
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.558
+wr = 4.42
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.559
+wr = 4.41
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.56
+wr = 4.4
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.561
+wr = 4.39
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.562
+wr = 4.38
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.563
+wr = 4.37
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.564
+wr = 4.36
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.565
+wr = 4.35
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.566
+wr = 4.34
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.567
+wr = 4.33
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.568
+wr = 4.32
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.569
+wr = 4.31
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.57
+wr = 4.3
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.571
+wr = 4.29
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.572
+wr = 4.28
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.573
+wr = 4.27
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.574
+wr = 4.26
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.575
+wr = 4.25
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.576
+wr = 4.24
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.577
+wr = 4.23
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.578
+wr = 4.22
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.579
+wr = 4.21
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.58
+wr = 4.2
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.581
+wr = 4.19
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.582
+wr = 4.18
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.583
+wr = 4.17
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.584
+wr = 4.16
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.585
+wr = 4.15
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.586
+wr = 4.14
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.587
+wr = 4.13
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.588
+wr = 4.12
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.589
+wr = 4.11
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.59
+wr = 4.1
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.591
+wr = 4.09
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.592
+wr = 4.08
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.593
+wr = 4.07
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.594
+wr = 4.06
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.595
+wr = 4.05
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.596
+wr = 4.04
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.597
+wr = 4.03
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.598
+wr = 4.02
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.599
+wr = 4.01
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.6
+wr = 4
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.601
+wr = 3.99
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.602
+wr = 3.98
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.603
+wr = 3.97
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.604
+wr = 3.96
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.605
+wr = 3.95
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.606
+wr = 3.94
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.607
+wr = 3.93
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.608
+wr = 3.92
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.609
+wr = 3.91
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.61
+wr = 3.9
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.611
+wr = 3.89
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.612
+wr = 3.88
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.613
+wr = 3.87
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.614
+wr = 3.86
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.615
+wr = 3.85
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.616
+wr = 3.84
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.617
+wr = 3.83
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.618
+wr = 3.82
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.619
+wr = 3.81
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.62
+wr = 3.8
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.621
+wr = 3.79
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.622
+wr = 3.78
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.623
+wr = 3.77
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.624
+wr = 3.76
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.625
+wr = 3.75
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.626
+wr = 3.74
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.627
+wr = 3.73
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.628
+wr = 3.72
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.629
+wr = 3.71
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.63
+wr = 3.7
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.631
+wr = 3.69
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.632
+wr = 3.68
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.633
+wr = 3.67
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.634
+wr = 3.66
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.635
+wr = 3.65
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.636
+wr = 3.64
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.637
+wr = 3.63
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.638
+wr = 3.62
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.639
+wr = 3.61
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.64
+wr = 3.6
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.641
+wr = 3.59
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.642
+wr = 3.58
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.643
+wr = 3.57
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.644
+wr = 3.56
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.645
+wr = 3.55
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.646
+wr = 3.54
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.647
+wr = 3.53
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.648
+wr = 3.52
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.649
+wr = 3.51
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.65
+wr = 3.5
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.651
+wr = 3.49
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.652
+wr = 3.48
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.653
+wr = 3.47
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.654
+wr = 3.46
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.655
+wr = 3.45
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.656
+wr = 3.44
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.657
+wr = 3.43
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.658
+wr = 3.42
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.659
+wr = 3.41
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.66
+wr = 3.4
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.661
+wr = 3.39
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.662
+wr = 3.38
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.663
+wr = 3.37
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.664
+wr = 3.36
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.665
+wr = 3.35
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.666
+wr = 3.34
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.667
+wr = 3.33
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.668
+wr = 3.32
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.669
+wr = 3.31
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.67
+wr = 3.3
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.671
+wr = 3.29
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.672
+wr = 3.28
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.673
+wr = 3.27
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.674
+wr = 3.26
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.675
+wr = 3.25
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.676
+wr = 3.24
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.677
+wr = 3.23
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.678
+wr = 3.22
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.679
+wr = 3.21
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.68
+wr = 3.2
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.681
+wr = 3.19
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.682
+wr = 3.18
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.683
+wr = 3.17
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.684
+wr = 3.16
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.685
+wr = 3.15
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.686
+wr = 3.14
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.687
+wr = 3.13
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.688
+wr = 3.12
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.689
+wr = 3.11
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.69
+wr = 3.1
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.691
+wr = 3.09
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.692
+wr = 3.08
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.693
+wr = 3.07
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.694
+wr = 3.06
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.695
+wr = 3.05
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.696
+wr = 3.04
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.697
+wr = 3.03
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.698
+wr = 3.02
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.699
+wr = 3.01
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.7
+wr = 3
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.701
+wr = 2.99
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.702
+wr = 2.98
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.703
+wr = 2.97
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.704
+wr = 2.96
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.705
+wr = 2.95
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.706
+wr = 2.94
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.707
+wr = 2.93
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.708
+wr = 2.92
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.709
+wr = 2.91
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.71
+wr = 2.9
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.711
+wr = 2.89
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.712
+wr = 2.88
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.713
+wr = 2.87
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.714
+wr = 2.86
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.715
+wr = 2.85
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.716
+wr = 2.84
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.717
+wr = 2.83
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.718
+wr = 2.82
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.719
+wr = 2.81
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.72
+wr = 2.8
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.721
+wr = 2.79
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.722
+wr = 2.78
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.723
+wr = 2.77
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.724
+wr = 2.76
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.725
+wr = 2.75
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.726
+wr = 2.74
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.727
+wr = 2.73
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.728
+wr = 2.72
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.729
+wr = 2.71
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.73
+wr = 2.7
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.731
+wr = 2.69
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.732
+wr = 2.68
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.733
+wr = 2.67
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.734
+wr = 2.66
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.735
+wr = 2.65
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.736
+wr = 2.64
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.737
+wr = 2.63
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.738
+wr = 2.62
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.739
+wr = 2.61
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.74
+wr = 2.6
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.741
+wr = 2.59
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.742
+wr = 2.58
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.743
+wr = 2.57
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.744
+wr = 2.56
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.745
+wr = 2.55
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.746
+wr = 2.54
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.747
+wr = 2.53
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.748
+wr = 2.52
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.749
+wr = 2.51
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.75
+wr = 2.5
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.751
+wr = 2.49
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.752
+wr = 2.48
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.753
+wr = 2.47
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.754
+wr = 2.46
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.755
+wr = 2.45
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.756
+wr = 2.44
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.757
+wr = 2.43
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.758
+wr = 2.42
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.759
+wr = 2.41
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.76
+wr = 2.4
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.761
+wr = 2.39
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.762
+wr = 2.38
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.763
+wr = 2.37
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.764
+wr = 2.36
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.765
+wr = 2.35
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.766
+wr = 2.34
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.767
+wr = 2.33
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.768
+wr = 2.32
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.769
+wr = 2.31
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.77
+wr = 2.3
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.771
+wr = 2.29
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.772
+wr = 2.28
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.773
+wr = 2.27
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.774
+wr = 2.26
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.775
+wr = 2.25
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.776
+wr = 2.24
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.777
+wr = 2.23
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.778
+wr = 2.22
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.779
+wr = 2.21
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.78
+wr = 2.2
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.781
+wr = 2.19
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.782
+wr = 2.18
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.783
+wr = 2.17
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.784
+wr = 2.16
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.785
+wr = 2.15
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.786
+wr = 2.14
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.787
+wr = 2.13
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.788
+wr = 2.12
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.789
+wr = 2.11
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.79
+wr = 2.1
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.791
+wr = 2.09
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.792
+wr = 2.08
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.793
+wr = 2.07
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.794
+wr = 2.06
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.795
+wr = 2.05
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.796
+wr = 2.04
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.797
+wr = 2.03
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.798
+wr = 2.02
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.799
+wr = 2.01
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.8
+wr = 2
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.801
+wr = 1.99
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.802
+wr = 1.98
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.803
+wr = 1.97
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.804
+wr = 1.96
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.805
+wr = 1.95
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.806
+wr = 1.94
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.807
+wr = 1.93
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.808
+wr = 1.92
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.809
+wr = 1.91
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.81
+wr = 1.9
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.811
+wr = 1.89
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.812
+wr = 1.88
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.813
+wr = 1.87
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.814
+wr = 1.86
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.815
+wr = 1.85
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.816
+wr = 1.84
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.817
+wr = 1.83
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.818
+wr = 1.82
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.819
+wr = 1.81
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.82
+wr = 1.8
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.821
+wr = 1.79
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.822
+wr = 1.78
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.823
+wr = 1.77
+ryzyko = 1909.17
+koszt_sredni = 13169.6
+
+wk = 0.824
+wr = 1.76
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.825
+wr = 1.75
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.826
+wr = 1.74
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.827
+wr = 1.73
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.828
+wr = 1.72
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.829
+wr = 1.71
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.83
+wr = 1.7
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.831
+wr = 1.69
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.832
+wr = 1.68
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.833
+wr = 1.67
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.834
+wr = 1.66
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.835
+wr = 1.65
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.836
+wr = 1.64
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.837
+wr = 1.63
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.838
+wr = 1.62
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.839
+wr = 1.61
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.84
+wr = 1.6
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.841
+wr = 1.59
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.842
+wr = 1.58
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.843
+wr = 1.57
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.844
+wr = 1.56
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.845
+wr = 1.55
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.846
+wr = 1.54
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.847
+wr = 1.53
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.848
+wr = 1.52
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.849
+wr = 1.51
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.85
+wr = 1.5
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.851
+wr = 1.49
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.852
+wr = 1.48
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.853
+wr = 1.47
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.854
+wr = 1.46
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.855
+wr = 1.45
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.856
+wr = 1.44
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.857
+wr = 1.43
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.858
+wr = 1.42
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.859
+wr = 1.41
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.86
+wr = 1.4
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.861
+wr = 1.39
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.862
+wr = 1.38
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.863
+wr = 1.37
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.864
+wr = 1.36
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.865
+wr = 1.35
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.866
+wr = 1.34
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.867
+wr = 1.33
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.868
+wr = 1.32
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.869
+wr = 1.31
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.87
+wr = 1.3
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.871
+wr = 1.29
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.872
+wr = 1.28
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.873
+wr = 1.27
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.874
+wr = 1.26
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.875
+wr = 1.25
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.876
+wr = 1.24
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.877
+wr = 1.23
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.878
+wr = 1.22
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.879
+wr = 1.21
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.88
+wr = 1.2
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.881
+wr = 1.19
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.882
+wr = 1.18
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.883
+wr = 1.17
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.884
+wr = 1.16
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.885
+wr = 1.15
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.886
+wr = 1.14
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.887
+wr = 1.13
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.888
+wr = 1.12
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.889
+wr = 1.11
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.89
+wr = 1.1
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.891
+wr = 1.09
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.892
+wr = 1.08
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.893
+wr = 1.07
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.894
+wr = 1.06
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.895
+wr = 1.05
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.896
+wr = 1.04
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.897
+wr = 1.03
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.898
+wr = 1.02
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.899
+wr = 1.01
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.9
+wr = 1
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.901
+wr = 0.99
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.902
+wr = 0.98
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.903
+wr = 0.97
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.904
+wr = 0.96
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.905
+wr = 0.95
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.906
+wr = 0.94
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.907
+wr = 0.93
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.908
+wr = 0.92
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.909
+wr = 0.91
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.91
+wr = 0.9
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.911
+wr = 0.89
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.912
+wr = 0.88
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.913
+wr = 0.87
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.914
+wr = 0.86
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.915
+wr = 0.85
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.916
+wr = 0.84
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.917
+wr = 0.83
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.918
+wr = 0.82
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.919
+wr = 0.81
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.92
+wr = 0.8
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.921
+wr = 0.79
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.922
+wr = 0.78
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.923
+wr = 0.77
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.924
+wr = 0.76
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.925
+wr = 0.75
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.926
+wr = 0.74
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.927
+wr = 0.73
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.928
+wr = 0.72
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.929
+wr = 0.71
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.93
+wr = 0.7
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.931
+wr = 0.69
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.932
+wr = 0.68
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.933
+wr = 0.67
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.934
+wr = 0.66
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.935
+wr = 0.65
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.936
+wr = 0.64
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.937
+wr = 0.63
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.938
+wr = 0.62
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.939
+wr = 0.61
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.94
+wr = 0.6
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.941
+wr = 0.59
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.942
+wr = 0.58
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.943
+wr = 0.57
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.944
+wr = 0.56
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.945
+wr = 0.55
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.946
+wr = 0.54
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.947
+wr = 0.53
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.948
+wr = 0.52
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.949
+wr = 0.51
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.95
+wr = 0.5
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.951
+wr = 0.49
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.952
+wr = 0.48
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.953
+wr = 0.47
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.954
+wr = 0.46
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.955
+wr = 0.45
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.956
+wr = 0.44
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.957
+wr = 0.43
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.958
+wr = 0.42
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.959
+wr = 0.41
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.96
+wr = 0.4
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.961
+wr = 0.39
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.962
+wr = 0.38
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.963
+wr = 0.37
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.964
+wr = 0.36
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.965
+wr = 0.35
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.966
+wr = 0.34
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.967
+wr = 0.33
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.968
+wr = 0.32
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.969
+wr = 0.31
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.97
+wr = 0.3
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.971
+wr = 0.29
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.972
+wr = 0.28
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.973
+wr = 0.27
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.974
+wr = 0.26
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.975
+wr = 0.25
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.976
+wr = 0.24
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.977
+wr = 0.23
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.978
+wr = 0.22
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.979
+wr = 0.21
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.98
+wr = 0.2
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.981
+wr = 0.19
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.982
+wr = 0.18
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.983
+wr = 0.17
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.984
+wr = 0.16
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.985
+wr = 0.15
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.986
+wr = 0.14
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.987
+wr = 0.13
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.988
+wr = 0.12
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.989
+wr = 0.11
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.99
+wr = 0.1
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.991
+wr = 0.09
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.992
+wr = 0.08
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.993
+wr = 0.07
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.994
+wr = 0.06
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.995
+wr = 0.05
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.996
+wr = 0.04
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.997
+wr = 0.03
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.998
+wr = 0.02
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 0.999
+wr = 0.01
+ryzyko = 2529.87
+koszt_sredni = 11841
+
+wk = 1
+wr = 0
+ryzyko = 2529.87
+koszt_sredni = 11841
+
