@@ -6,12 +6,11 @@ set MASZYNY;
 
 # -- PARAMETRY --
 
-# waga ryzyka
+# Waga ryzyka
 param wr;
 
-# waga kosztu
+# Waga kosztu
 param wk;
-
 
 # Liczba stanow zmiennej losowej
 param stan;
@@ -37,17 +36,18 @@ param czas_dod;
 # Koszt dodatkowej dzierzawy 
 param koszt_dod;
 
-
 # -- ZMIENNE --
+
 # Koszt produkcji w zaleznosci od stanu zmiennej losowej
 var koszt{1..stan};
 
 # Produkcja towaru na maszynie
-var produkcja {t in TOWARY, m in MASZYNY} integer >= 0;
+var produkcja {t in TOWARY, m in MASZYNY}>= 0;
 
 # Wartosc binarna wydzierzawienia czasu dodatkowego na maszne
 var czas_dod_bin {m in MASZYNY} binary := 0;
 
+# Zmienne pomocnicze
 var wywazony_koszt;
 var wywazone_ryzyko;
 
@@ -58,23 +58,24 @@ var koszt_sredni;
 var koszt_dod_m {m in MASZYNY} >= 0;
 
 # Ochylenie przecietne jako miara ryzyka
-#minimize ryzyko_koszty:  koszt_sredni*wk + ryzyko*wr;
-minimize ryzyko_koszty:  ryzyko;
-#minimize ryzyko_koszty:  koszt_sredni;
-
+minimize ryzyko_koszty:  koszt_sredni*wk + ryzyko*wr;
+#minimize ryzyko_koszty:  koszt_sredni + ryzyko;
 
 subject to produkcja_ogr {t in TOWARY}: sum{m in MASZYNY} produkcja[t,m] >= min_produkcja[t];
 
 subject to koszt_od_stanu_ogr {s in 1..stan}: (sum{m in MASZYNY} (sum {t in TOWARY} produkcja[t,m]*zuzycie[m,t]-czas_dod*czas_dod_bin[m])*koszt_stanu[s,m]) = koszt[s];
 
-subject to koszt_sredni_ogr: (sum{s in 1..stan} koszt[s])/stan = koszt_sredni;
+subject to koszt_sredni_ogr: sum{s in 1..stan} koszt[s]*prawd_stanu[s] = koszt_sredni;
 
 subject to wartosc_ryzyka_ogr: (sum{s in 1..stan} abs(koszt[s]-koszt_sredni))/stan = ryzyko;
  
 subject to czas_dodatkowy_ogr {m in MASZYNY}: (if (sum{t in TOWARY} (produkcja[t,m]*zuzycie[m,t]) >= max_czas) then 1 else 0) = czas_dod_bin[m];
 
 subject to kosz_dodatkowy_ogr {m in MASZYNY}: ((sum{t in TOWARY} produkcja[t,m]*zuzycie[m,t])-max_czas)*koszt_dod*czas_dod_bin[m] = koszt_dod_m[m];
-subject to czas_dod_max {m in MASZYNY}: (sum{t in TOWARY} produkcja[t,m]*zuzycie[m,t]) - max_czas <= czas_dod;
+
+subject to kosz_dodatkowy_ogr22 {m in MASZYNY}: koszt_dod_m[m] <= 500;
+
+subject to czas_dod_max {m in MASZYNY}: (sum{t in TOWARY} produkcja[t,m]*zuzycie[m,t]) <= czas_dod+max_czas;
 
 # do pogladu
 #subject to wywazony_koszt_ogr: koszt_sredni*wk = wywazony_koszt;

@@ -42,7 +42,7 @@ param koszt_dod;
 var koszt{1..stan};
 
 # Produkcja towaru na maszynie
-var produkcja {t in TOWARY, m in MASZYNY} integer >= 0;
+var produkcja {t in TOWARY, m in MASZYNY}>= 0;
 
 # Wartosc binarna wydzierzawienia czasu dodatkowego na maszne
 var czas_dod_bin {m in MASZYNY} binary := 0;
@@ -73,7 +73,7 @@ subject to czas_dodatkowy_ogr {m in MASZYNY}: (if (sum{t in TOWARY} (produkcja[t
 
 subject to kosz_dodatkowy_ogr {m in MASZYNY}: ((sum{t in TOWARY} produkcja[t,m]*zuzycie[m,t])-max_czas)*koszt_dod*czas_dod_bin[m] = koszt_dod_m[m];
 
-subject to kosz_dodatkowy_ogr22 {m in MASZYNY}: koszt_dod_m[m] <= 500;
+#subject to kosz_dodatkowy_ogr22 {m in MASZYNY}: koszt_dod_m[m] <= 500;
 
 subject to czas_dod_max {m in MASZYNY}: (sum{t in TOWARY} produkcja[t,m]*zuzycie[m,t]) <= czas_dod+max_czas;
 

@@ -9,7 +9,7 @@ param iterations;
 param interval_wr;
 param interval_wk;
 
-let iterations := 20;
+let iterations := 1000;
 let interval_wk := 0.001;
 
 display 'Soving output' > output2;
