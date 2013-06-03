@@ -65,7 +65,7 @@ subject to produkcja_ogr {t in TOWARY}: sum{m in MASZYNY} produkcja[t,m] >= min_
 
 subject to koszt_od_stanu_ogr {s in 1..stan}: (sum{m in MASZYNY} (sum {t in TOWARY} produkcja[t,m]*zuzycie[m,t]-czas_dod*czas_dod_bin[m])*koszt_stanu[s,m]) = koszt[s];
 
-subject to koszt_sredni_ogr: (sum{s in 1..stan} koszt[s])/stan = koszt_sredni;
+subject to koszt_sredni_ogr: sum{s in 1..stan} koszt[s]*prawd_stanu[s] = koszt_sredni;
 
 subject to wartosc_ryzyka_ogr: (sum{s in 1..stan} abs(koszt[s]-koszt_sredni))/stan = ryzyko;
  
