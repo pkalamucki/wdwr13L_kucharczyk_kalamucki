@@ -1,2 +1,0 @@
-\select@language {polish}
-\contentsline {chapter}{\numberline {1}}{2}
