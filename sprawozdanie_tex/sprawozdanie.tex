@@ -12,11 +12,53 @@ Piotr Kałamucki}
 
 \maketitle
 
-\chapter{Zadanie 1 - Model}
+\chapter{Model}
 
 
 Rozwiązania:
 
-\chapter{Zadanie 2 - Wyznaczenie rozwiazań efektywnych}
+\chapter{Wyznaczenie rozwiązań efektywnych}
+\section{Rozwiązanie minimalnego kosztu}
+Przy minimalizacji kosztu i nie uwzględniając ryzyka osiągnięto:
+\begin{itemize}
+\item Ryzyko: 2163.3
+\item Koszt średni: 10174.7
+\end{itemize}
+
+\begin{table}[h!]
+\begin{center}
+    \begin{tabular}{|l|l|l|l|}\hline
+    Produkt/Maszyna& M1 & M2 & M3 \\\hline\hline
+    Produkt A      & 30  & 30  & 0  \\\hline
+    Produkt B      & 60  & 0  & 0  \\\hline
+    Produkt C      & 0  & 0  & 60  \\\hline
+    Produkt D      & 120  & 0  & 0  \\\hline
+    Produkt E      & 0  & 120  & 0  \\\hline\hline
+    Czas dodatkowy (min) & 0  & 0  & 0  \\\hline
+    \end{tabular}
+\end{center}
+\end{table}
+
+\section{Rozwiązanie minimalnego ryzyka}
+Przy minimalizacji ryzyka, bez uwzględniania kosztu produkcji wyliczone wartości to:
+\begin{itemize}
+\item Ryzyko: 1267.44
+\item Koszt średni: 11434.7
+\end{itemize}
+
+\begin{table}[h!]
+\begin{center}
+    \begin{tabular}{|l|l|l|l|}\hline
+    Produkt/Maszyna& M1 & M2 & M3 \\\hline\hline
+    Produkt A      & 0  & 60  & 0  \\\hline
+    Produkt B      & 0  & 0  & 60  \\\hline
+    Produkt C      & 0  & 0  & 60  \\\hline
+    Produkt D      & 33  & 87  & 0  \\\hline
+    Produkt E      & 0  & 36  & 84  \\\hline\hline
+    Czas dodatkowy (min) & 0  & 0  & 2001  \\\hline
+    \end{tabular}
+\end{center}
+\end{table}
+
 
 \end{document}
