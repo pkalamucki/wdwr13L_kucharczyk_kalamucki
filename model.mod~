@@ -6,11 +6,12 @@ set MASZYNY;
 
 # -- PARAMETRY --
 
-# Waga ryzyka
+# waga ryzyka
 param wr;
 
-# Waga kosztu
+# waga kosztu
 param wk;
+
 
 # Liczba stanow zmiennej losowej
 param stan;
@@ -36,8 +37,8 @@ param czas_dod;
 # Koszt dodatkowej dzierzawy 
 param koszt_dod;
 
-# -- ZMIENNE --
 
+# -- ZMIENNE --
 # Koszt produkcji w zaleznosci od stanu zmiennej losowej
 var koszt{1..stan};
 
@@ -47,7 +48,6 @@ var produkcja {t in TOWARY, m in MASZYNY} integer >= 0;
 # Wartosc binarna wydzierzawienia czasu dodatkowego na maszne
 var czas_dod_bin {m in MASZYNY} binary := 0;
 
-# Zmienne pomocnicze
 var wywazony_koszt;
 var wywazone_ryzyko;
 
@@ -58,8 +58,10 @@ var koszt_sredni;
 var koszt_dod_m {m in MASZYNY} >= 0;
 
 # Ochylenie przecietne jako miara ryzyka
-minimize ryzyko_koszty:  koszt_sredni*wk + ryzyko*wr;
-#minimize ryzyko_koszty:  koszt_sredni + ryzyko;
+#minimize ryzyko_koszty:  koszt_sredni*wk + ryzyko*wr;
+minimize ryzyko_koszty:  ryzyko;
+#minimize ryzyko_koszty:  koszt_sredni;
+
 
 subject to produkcja_ogr {t in TOWARY}: sum{m in MASZYNY} produkcja[t,m] >= min_produkcja[t];
 
@@ -72,10 +74,7 @@ subject to wartosc_ryzyka_ogr: (sum{s in 1..stan} abs(koszt[s]-koszt_sredni))/st
 subject to czas_dodatkowy_ogr {m in MASZYNY}: (if (sum{t in TOWARY} (produkcja[t,m]*zuzycie[m,t]) >= max_czas) then 1 else 0) = czas_dod_bin[m];
 
 subject to kosz_dodatkowy_ogr {m in MASZYNY}: ((sum{t in TOWARY} produkcja[t,m]*zuzycie[m,t])-max_czas)*koszt_dod*czas_dod_bin[m] = koszt_dod_m[m];
-
-subject to kosz_dodatkowy_ogr22 {m in MASZYNY}: koszt_dod_m[m] <= 500;
-
-subject to czas_dod_max {m in MASZYNY}: (sum{t in TOWARY} produkcja[t,m]*zuzycie[m,t]) <= czas_dod+max_czas;
+subject to czas_dod_max {m in MASZYNY}: (sum{t in TOWARY} produkcja[t,m]*zuzycie[m,t]) - max_czas <= czas_dod;
 
 # do pogladu
 #subject to wywazony_koszt_ogr: koszt_sredni*wk = wywazony_koszt;
