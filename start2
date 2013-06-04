@@ -1,7 +1,7 @@
 reset;
-option solver "/home/kkucharc/Pobrane/minos";
-model model.mod;
-data dane.dat;
+#option solver "/home/kkucharc/Pobrane/minos";
+model D:\projekty\wdwr13L_kucharczyk_kalamucki\model.mod;
+data D:\projekty\wdwr13L_kucharczyk_kalamucki\dane.dat;
 
 #option solver cplex;
 
@@ -9,8 +9,8 @@ param iterations;
 param interval_wr;
 param interval_wk;
 
-let iterations := 1000;
-let interval_wk := 0.001;
+let iterations := 100;
+let interval_wk := 0.01;
 
 display 'Soving output' > output2;
 
@@ -22,7 +22,7 @@ for {i in 0..iterations} {
 	solve;
 
 #	display wk, wr, 
-display ryzyko, koszt_sredni >> output2;
+display ryzyko, koszt_sredni, koszt, produkcja >> output2;
    #display _varname, _var >> output2;
 };
 

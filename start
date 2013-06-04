@@ -1,7 +1,7 @@
 reset;
-option solver "/home/kkucharc/Pobrane/minos";
-model model.mod;
-data dane.dat;
+#option solver "/home/kkucharc/Pobrane/minos";
+model D:\projekty\wdwr13L_kucharczyk_kalamucki\model.mod;
+data D:\projekty\wdwr13L_kucharczyk_kalamucki\dane.dat;
 
 #option solver cplex;
 
